@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Trail Orange
+  m_Shader: {fileID: 4800000, guid: 70eb0266956de1341ad509721978e5ad, type: 3}
+  m_ValidKeywords:
+  - _GRADIENTUV_V
+  - _TOGGLEVERTEXCOLOR_NOVERTEXCOLOR
+  m_InvalidKeywords:
+  - _ENABLESCREENSPACETEXTURE_ON
+  - _ENABLESINTIMEFORSECONDDISPLACEMENT_ON
+  - _SCREENSPACEWORLDDIR_ON
+  - _SEPARATEAXIS1_ON
+  - _SEPARATEAXIS4_ON
+  - _TOGGLEGRADIENT_ON
+  - _TOGGLESECONDDISPLACEMENT_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTexture:
+        m_Texture: {fileID: 2800000, guid: ea634acd849151640919a5a899c0866b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Displacement:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Fademask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: ea634acd849151640919a5a899c0866b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ScreenSpace:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ScreenspaceDisplacementTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ScreenspaceTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondDisplacement:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Blend: 2
+    - _BumpScale: 1
+    - _ColorMask: 15
+    - _CustomColors: 0
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DisplacementDelay: 1.25
+    - _DisplacementIntensity: 0.15
+    - _DisplacementSpeed: 1
+    - _DstBlend: 0
+    - _EnableGlowRemap: 0
+    - _EnableScreenspaceTexture: 1
+    - _EnableSinTImeforDisplacement: 0
+    - _EnableSinTImeforScreenspace: 0
+    - _EnableSinTImeforScreenspaceDisplacement: 0
+    - _EnableSinTImeforSecondDisplacement: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Glow: 1
+    - _GradientColorBurn: 0
+    - _GradientOffset: 1
+    - _GradientUV: 2
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Opacity: 1
+    - _Parallax: 0.02
+    - _ScreenspaceDisplacementIntesity: 1
+    - _ScreenspaceWorldDir: 1
+    - _ScrenspaceStrength: 1
+    - _SecondDisplacementDelay: 1.25
+    - _SecondDisplacementIntesity: 1
+    - _SecondDisplacementSpeed: 1
+    - _SeparateAxis1: 1
+    - _SeparateAxis2: 0
+    - _SeparateAxis3: 0
+    - _SeparateAxis4: 1
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TintColorBurn: 0
+    - _ToggleFademaskDisplacement: 0
+    - _ToggleGradient: 1
+    - _ToggleSecondDisplacement: 1
+    - _ToggleVertexColor: 0
+    - _TrailOpacity: 4.98
+    - _UVSec: 0
+    - _ZWrite: 1
+    - __dirty: 1
+    m_Colors:
+    - _Color: {r: 1, g: 0.80652887, b: 0.572327, a: 1}
+    - _DisplacementOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _GColor: {r: 1, g: 0.39260864, b: 0, a: 1}
+    - _ScreenspaceDisplacementMovement: {r: 1, g: 0, b: 0, a: 0}
+    - _ScreenspaceDisplacementOffset: {r: 1, g: 0, b: 0, a: 0}
+    - _ScreenspaceMovement: {r: 1, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
